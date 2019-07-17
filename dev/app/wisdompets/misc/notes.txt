@@ -12,3 +12,36 @@ suffix$            anything-suffix
 =========================================
 
 Python Regex cheatsheet at pythex.org
+
+
+--    Templates Syntax
+
+# get value of a variable
+{{ variable }}
+
+# loops and conditions, URL tags
+{% tag %}
+
+URL tags
+{% url 'index' %}
+{% url 'pet_detail' pet.id %}
+
+# Template filters
+{{ variable|filter }}
+
+{{ pet.name|capfirst }}
+
+--  Inheritance from base.html
+
+# Example adoptions/index.html
+{% extends 'base.html' %}
+
+  {% block content %}
+    <h3>Animals available for adoption</h3>
+  {% endblock content %}
+
+--    BASE_DIR is the directory having manage.py
+      STATICFILES_DIRS
+      static folder at the project level and templates folder at app level directory
+
+    
