@@ -1,0 +1,14 @@
+--   Regular Expressions for URL patterns
+
+Expression    ||   String that matches
+======================================
+ducky              rubber ducky
+\d                 1
+\d+                12 ounces
+^admin/            admin/inventory/system
+suffix$            anything-suffix
+^$
+
+=========================================
+
+Python Regex cheatsheet at pythex.org
