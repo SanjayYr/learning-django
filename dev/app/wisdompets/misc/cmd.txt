@@ -1,0 +1,11 @@
+django-admin.py startproject wisdompets
+
+python manage.py startapp adoptions
+
+python manage.py runserver localhost:8000
+
+python manage.py makemigrations
+
+python manage.py showmigrations
+
+python manage.py migrate
